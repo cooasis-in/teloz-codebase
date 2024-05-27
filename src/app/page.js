@@ -1,3 +1,4 @@
+import BuiltToSupport from "@/components/BuiltToSupport";
 import CommunitySupport from "@/components/CommunitySupport";
 import HeroSection from "@/components/HeroSection";
 import LeadingCo from "@/components/LeadingCo";
@@ -18,6 +19,7 @@ export default function Home() {
         <CommunitySupport/>
         <WhyTeloz/>
         <StatisticsVolume/>
+        <BuiltToSupport/>
        </div>
     </main>
   );
