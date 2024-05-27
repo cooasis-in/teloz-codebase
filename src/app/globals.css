@@ -8,6 +8,11 @@ body{
 
 }
 
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
