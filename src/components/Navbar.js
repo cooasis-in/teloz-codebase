@@ -49,10 +49,6 @@ const Navbar = () => {
             <span className="text-gray-700 border cursor-pointer h-[59px] w-[137px] text-sm border-black px-2 py-1 flex items-center justify-center">
               +91 7738344399
             </span>
-
-            {/* <button className="bg-[#F26622] text-white px-4 py-2 h-[59px] w-[137px]  hover:bg-[#e65b20]">
-              Book Now
-            </button> */}
             <Button>Book Now</Button>
           </div>
           <div className="md:hidden flex items-center">
