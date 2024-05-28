@@ -105,10 +105,10 @@ const WhyTeloz = () => {
         <div className="mt-6">
           <Button
             className="mt-8"
-            color=" bg-white"
+            color="bg-white"
             text="black"
             border="border"
-            hover="hover:bg-[#FFFCEE] "
+            hover="hover:bg-[#FFFCEE]"
           >
             Learn More
           </Button>

@@ -1,3 +1,4 @@
+import BuiltToSupport from "@/components/BuiltToSupport";
 import CommunitySupport from "@/components/CommunitySupport";
 import Footer from "@/components/Footer";
 // import FormHomeTouch from "@/components/FormHomeTouch";
@@ -16,7 +17,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-       <div>
+      <div>
         <Navbar/>
         <HeroSection/>
         <LeadingCo/>
@@ -29,8 +30,9 @@ export default function Home() {
         <RoadMap/>
         {/* <FormHomeTouch/> */}
         <Startup/>
+        <BuiltToSupport/>
         <Footer/>
-       </div>
+      </div>
     </main>
   );
 }
