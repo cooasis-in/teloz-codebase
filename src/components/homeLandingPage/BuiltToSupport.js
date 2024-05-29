@@ -1,7 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
-import Button from './Button'
+import Button from '../reusableComponents/Button'
+
 
 const BuiltToSupport = () => {
 
@@ -17,7 +18,6 @@ const BuiltToSupport = () => {
         <title>Tech Forum</title>
         <meta name="description" content="Built to support both your work and wellbeing." />
       </Head>
-
       <div className="text-center mb-12 px-4">
         <h1 className="text-2xl md:text-3xl font-bold mb-2">Built to support both your work and wellbeing.</h1>
         <p className="text-gray-600 mt-4">Telospaces plays host and venue to many types of events and programming <br/> based on promoting the arts, personal growth, and work-life integration.</p>

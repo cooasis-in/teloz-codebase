@@ -1,7 +1,7 @@
 "use client";
 import 'flowbite';
 
-function RoadMap() {
+function AccordionSection() {
 
   return (
     <div className="container mx-auto mt-10 sm:mt-16 md:mt-20 px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row justify-between items-start mb-10 sm:mb-12 md:mb-16">
@@ -155,4 +155,4 @@ function RoadMap() {
   );
 }
 
-export default RoadMap;
+export default AccordionSection;

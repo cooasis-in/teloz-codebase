@@ -1,6 +1,6 @@
 import React from "react";
 
-function SteveJobs() {
+function OurClients() {
   return (
     <div className="container mx-auto px-4">
       <h2 className="text-2xl lg:text-4xl font-normal text-center text-black">
@@ -116,4 +116,4 @@ function SteveJobs() {
   );
 }
 
-export default SteveJobs;
+export default OurClients;

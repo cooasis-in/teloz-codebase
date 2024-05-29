@@ -1,6 +1,6 @@
 import Button from "./Button";
 
-function Startup() {
+function AreUStartup() {
   return (
     <div className="bg-[#FF5D22] relative py-2">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -34,4 +34,4 @@ function Startup() {
   );
 }
 
-export default Startup;
+export default AreUStartup;
