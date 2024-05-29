@@ -13,6 +13,13 @@ body{
   margin-left: auto;
 }
 
+.accordian-btn {
+  background: none !important;
+}
+.accordian-btn[aria-expanded="true"] {
+  border: none !important;
+}
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
