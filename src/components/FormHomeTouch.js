@@ -137,7 +137,7 @@ function FormHomeTouch() {
                       />
                     </div>
                   </div>
-                  <div className="flex items-center mb-4 border border-gray-300 rounded-lg">
+                  <div className="flex items-center mb-4 border border-gray-300">
                     <label
                       htmlFor="desks"
                       className="block text-sm font-medium text-gray-700 p-3"
@@ -145,13 +145,7 @@ function FormHomeTouch() {
                       Desks Required
                     </label>
                     <div className="flex items-center border-l border-gray-300">
-                      <button
-                        type="button"
-                        onClick={() => setDesks(desks > 0 ? desks - 1 : 0)}
-                        className="p-2"
-                      >
-                        -
-                      </button>
+                      <div>
                       <input
                         type="text"
                         id="desks"
@@ -160,6 +154,15 @@ function FormHomeTouch() {
                         readOnly
                         className="w-16 text-center border-0"
                       />
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => setDesks(desks > 0 ? desks - 1 : 0)}
+                        className="p-2"
+                      >
+                        -
+                      </button>
+                   
                       <button
                         type="button"
                         onClick={() => setDesks(desks + 1)}
