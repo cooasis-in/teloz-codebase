@@ -12,10 +12,10 @@ function FormHomeTouch() {
       <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <div className="left-col">
-            <h3 className="text-2xl lg:text-4xl leading-[40.8px] font-normal text-[#000000] max-w-md lg:max-w-none">
+            <h3 className="text-2xl lg:text-4xl leading-[40.8px] font-normal text-[#000000] max-w-[430px]">
               Let's grab a cup of coffee ?
             </h3>
-            <p className="text-lg lg:text-xl leading-[31px] font-light mt-6 text-[#000000] max-w-md lg:max-w-xl">
+           <p className="text-lg lg:text-xl leading-[31px] font-light mt-6 text-[#000000] max-w-md lg:max-w-xl">
               Let's have a coffee together and discuss <br /> how we may help you ?
             </p>
           </div>
@@ -137,42 +137,39 @@ function FormHomeTouch() {
                       />
                     </div>
                   </div>
-                  <div className="flex items-center mb-4 border border-gray-300">
-                    <label
-                      htmlFor="desks"
-                      className="block text-sm font-medium text-gray-700 p-3"
-                    >
-                      Desks Required
-                    </label>
+                  <div className="flex items-center mb-4 border border-gray-300 relative">
                     <div className="flex items-center border-l border-gray-300">
                       <div>
                       <input
+                        placeholder="Desks Required"
                         type="text"
                         id="desks"
                         name="desks"
                         value={desks}
                         readOnly
-                        className="w-16 text-center border-0"
+                        className="text-center border-0"
                       />
                       </div>
-                      <button
+                     <div className="absolute right-0 flex items-center bg-[#EEF5E6] h-full">
+                     <button
                         type="button"
                         onClick={() => setDesks(desks > 0 ? desks - 1 : 0)}
-                        className="p-2"
+                        className="px-6 flex justify-center items-center w-[75px] border-[1px] border-l-[2px] border-[solid] border-[#00000021] h-full"
                       >
-                        -
+                        <img src="image/mines.svg" alt="" />
                       </button>
                    
                       <button
                         type="button"
                         onClick={() => setDesks(desks + 1)}
-                        className="p-2"
+                        className="px-6 flex justify-center items-center w-[75px] border-[1px] border-[solid] border-[#00000021] h-full"
                       >
-                        +
+                        <img src="image/plus.svg" className="text-center" alt="" />
                       </button>
+                     </div>
                     </div>
                   </div>
-                  <p className="text-sm text-gray-600">
+                  <p className="text-[15px] leadimg-[31px] font-light text-[#000000] py-4 max-w-[531px]">
                     By clicking the above button, you agree to our Terms of
                     Service and confirm that you have read and understood our
                     Privacy Policy.
@@ -185,7 +182,7 @@ function FormHomeTouch() {
                     Get in touch
                   </button> */}
                   <Button
-                size="lg:w-[186px] lg:h-[59px]"
+                size="lg:w-[234px] lg:h-[59px]"
                 color=" bg-black"
                 border="border"
                 hover="none"
