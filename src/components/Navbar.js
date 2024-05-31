@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="py-4 border-b h-[91px] fixed top-0 left-0 w-full bg-[#FFFCEE] z-10">
+    <nav className="py-4 z-20 border-b h-[91px] fixed top-0 left-0 w-full bg-[#FFFCEE]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-20">
@@ -49,7 +49,10 @@ const Navbar = () => {
             <span className="text-gray-700 border cursor-pointer h-[59px] w-[137px] text-sm border-black px-2 py-1 flex items-center justify-center">
               +91 7738344399
             </span>
+            <Link href="/bookNow">
             <Button>Book Now</Button>
+            </Link>
+
           </div>
           <div className="md:hidden flex items-center">
             <button

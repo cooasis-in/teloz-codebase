@@ -8,7 +8,7 @@ function OurClients() {
       </h2>
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {/* Card 1 */}
-        <div className="card bg-gray-100 border border-gray-100 shadow-md w-full max-w-xs mx-auto h-80">
+        <div className="card bg-gray-100 border border-gray-100 shadow-md w-full max-w-xs mx-auto h-80 hover:cursor-pointer transform transition-transform duration-300 ease-in-out hover:scale-105">
           <div className="p-6">
             <div className="flex items-center">
               <img
@@ -34,7 +34,7 @@ function OurClients() {
           </div>
         </div>
         {/* Card 2 */}
-        <div className="card bg-gray-100 border border-gray-100 shadow-md w-full max-w-xs mx-auto h-80">
+        <div className="card bg-gray-100 border border-gray-100 shadow-md w-full max-w-xs mx-auto h-80 hover:cursor-pointer transform transition-transform duration-300 ease-in-out hover:scale-105">
           <div className="p-6">
             <div className="flex items-center">
               <img
@@ -60,7 +60,7 @@ function OurClients() {
           </div>
         </div>
         {/* Card 3 */}
-        <div className="card bg-gray-100 border border-gray-100 shadow-md w-full max-w-xs mx-auto h-80">
+        <div className="card bg-gray-100 border border-gray-100 shadow-md w-full max-w-xs mx-auto h-80 hover:cursor-pointer transform transition-transform duration-300 ease-in-out hover:scale-105">
           <div className="p-6">
             <div className="flex items-center">
               <img
@@ -86,7 +86,7 @@ function OurClients() {
           </div>
         </div>
         {/* Card 4 */}
-        <div className="card bg-gray-100 border border-gray-100 shadow-md w-full max-w-xs mx-auto h-80">
+        <div className="card bg-gray-100 border border-gray-100 shadow-md w-full max-w-xs mx-auto h-80 hover:cursor-pointer transform transition-transform duration-300 ease-in-out hover:scale-105">
           <div className="p-6">
             <div className="flex items-center">
               <img
