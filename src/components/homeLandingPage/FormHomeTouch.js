@@ -15,8 +15,8 @@ function FormHomeTouch() {
             <h3 className="text-2xl lg:text-4xl leading-[40.8px] font-normal text-[#000000] max-w-[430px]">
               Let's grab a cup of coffee ?
             </h3>
-            <p className="text-lg lg:text-xl leading-[31px] font-light mt-6 text-[#000000] max-w-[392px]">
-              Let's have a coffee together and discuss how we may help you ?
+          <p className="text-lg lg:text-xl leading-[31px] font-light mt-6 text-[#000000] max-w-md lg:max-w-xl">
+              Let's have a coffee together and discuss <br /> how we may help you ?
             </p>
           </div>
           <div className="right-col">
