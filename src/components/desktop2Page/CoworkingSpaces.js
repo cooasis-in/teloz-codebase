@@ -123,7 +123,9 @@ function CoworkingSpaces() {
             </div>
           </div>
         </section>
-        <div className="border-b-[1px] border-[solid] border-[#D0D0D0]"></div>
+        <div className="container px-8">
+          <div className=" border-b-[1px] border-[solid] border-[#D0D0D0]"></div>
+        </div>
         <section className="border-b-[1px] border-[solid] border-[#0000001A]">
           <div className="mt-32 mb-32 container  px-4 sm:px-6 lg:px-8 grid grid-cols-5">
             <div className="col-span-2">
