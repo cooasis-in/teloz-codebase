@@ -4,7 +4,8 @@
 
 
 body{
- background: #FFFCEE;
+  font-family: "Manrope", sans-serif;
+  background: #FFFCEE;
 
 }
 
@@ -49,3 +50,31 @@ body {
     text-wrap: balance;
   }
 } */
+
+/* desktop-2 coworkingspaces-sec slick slider */
+
+.slick-dots li button:before {
+  content: '' !important;
+  width: 10px !important;
+  height: 10px !important;
+  background: #FF5D22;
+}
+
+.slick-dots li.slick-active button:before {
+  width: 80px !important;
+  background: #FF5D22;
+}
+
+.slick-dots li.slick-active button,.slick-dots li.slick-active {
+  width: 80px !important;
+}
+
+.slick-dots {
+  position: absolute !important;
+  left: -67% !important;
+  text-align: left !important;
+}
+
+
+
+/* desktop-2 coworkingspaces-sec slick slider */
