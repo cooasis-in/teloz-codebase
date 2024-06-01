@@ -4,7 +4,7 @@ function AreUStartup() {
   return (
     <div className="bg-[#FF5D22] relative py-2">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="absolute left-2 top-5">
+        <div className="absolute left-2 top-5 hidden md:block">
           <img src="image/left.png" alt="Decorative left image" className="w-8 sm:w-12 md:w-16" />
         </div>
         <div className="content">
@@ -26,7 +26,7 @@ function AreUStartup() {
             Learn More
           </Button>
         </div>
-        <div className="absolute right-2 top-5">
+        <div className="absolute right-2 top-5 hidden md:block">
           <img src="image/right.png" alt="Decorative right image" className="w-8 sm:w-12 md:w-16" />
         </div>
       </div>

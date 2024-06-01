@@ -75,11 +75,12 @@ body {
   text-align: left !important;
 }
 
-.slider-container {
-  overflow: hidden;
-}
 
 @media (max-width: 767px) {
+
+  .slider-container {
+    overflow: hidden;
+  }
 
   .slick-dots {
     left: 0% !important;
