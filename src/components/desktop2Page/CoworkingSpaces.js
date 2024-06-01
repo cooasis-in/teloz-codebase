@@ -117,7 +117,7 @@ function CoworkingSpaces() {
             <div className="slider-container md:col-span-3">
               <Slider {...settings}>
                 {cardArr?.map((item, index) => (
-                  <Card data={item} />
+                  <Card data={item} key={index} />
                 ))}
               </Slider>
             </div>
@@ -135,7 +135,7 @@ function CoworkingSpaces() {
             <div className="slider-container col-span-3">
               <Slider {...settings}>
               {cardArr2?.map((item, index) => (
-                  <Card data={item} />
+                  <Card data={item} key={index} />
                 ))}             
               </Slider>
             </div>

@@ -26,9 +26,7 @@ function OurClients() {
             </div>
             <div className="mt-12">
               <p className="text-[16px] leading-[25.2px] font-normal text-[#1D1E1C]">
-                "The 24/7 access and secure facilities have been incredibly
-                convenient for my team's flexible schedules. We love the coworking
-                space!"
+              &ldquo;The 24/7 access and secure facilities have been incredibly convenient for my team&apos;s flexible schedules. We love the coworking space!&ldquo;
               </p>
             </div>
           </div>
@@ -52,9 +50,7 @@ function OurClients() {
             </div>
             <div className="mt-12">
               <p className="text-[16px] leading-[25.2px] font-normal text-[#1D1E1C">
-                "The 24/7 access and secure facilities have been incredibly
-                convenient for my team's flexible schedules. We love the coworking
-                space!"
+              &quot;The 24/7 access and secure facilities have been incredibly convenient for my team&apos;s flexible schedules. We love the coworking space!&quot;
               </p>
             </div>
           </div>
@@ -78,9 +74,7 @@ function OurClients() {
             </div>
             <div className="mt-12">
               <p className="text-[16px] leading-[25.2px] font-normal text-[#1D1E1C">
-                "The 24/7 access and secure facilities have been incredibly
-                convenient for my team's flexible schedules. We love the coworking
-                space!"
+              &quot;The 24/7 access and secure facilities have been incredibly convenient for my team&apos;s flexible schedules. We love the coworking space!&quot;
               </p>
             </div>
           </div>
@@ -104,9 +98,7 @@ function OurClients() {
             </div>
             <div className="mt-12">
               <p className="text-[16px] leading-[25.2px] font-normal text-[#1D1E1C">
-                "The 24/7 access and secure facilities have been incredibly
-                convenient for my team's flexible schedules. We love the coworking
-                space!"
+              &quot;The 24/7 access and secure facilities have been incredibly convenient for my team&apos;s flexible schedules. We love the coworking space!&quot;
               </p>
             </div>
           </div>
