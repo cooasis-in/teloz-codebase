@@ -16,7 +16,7 @@ function HostOfSolution() {
             </div>
             <div className="mt-8 md:mt-0 flex justify-center relative">
               <Image
-                src="/image/hostofsolution.jpg"
+                src="/image/hostofsolution.JPG"
                 alt="Host of solutions"
                 width={540} // specify your image width
                 height={540} // specify your image height
