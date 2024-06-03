@@ -10,7 +10,7 @@ const BookNowMaster = () => {
     <div>
         <HeroSection/>
         <HostEventCard/>
-        <div className=' bg-white'>
+        <div className='bg-white'>
         <FullyEquipedSpaces/>
         <EventHostSteps/>
         <FormReachOut/>
