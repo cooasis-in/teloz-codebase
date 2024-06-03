@@ -3,7 +3,7 @@ import Button from "../reusableComponents/Button";
 
 const WantPartnerWithUs = () => {
   return (
-    <div className="container flex flex-col items-start justify-center min-h-screen px-6 py-12">
+    <div className="container mx-auto flex mt-6 mb-20 px-6 py-12">
       <div className="max-w-4xl">
         <h2 className="text-3xl font-bold mb-4">Want to be partner with us?</h2>
         <p className="text-sm">

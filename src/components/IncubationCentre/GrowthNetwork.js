@@ -59,7 +59,7 @@ const HostEventCard = () => {
   };
 
   return (
-    <div className="container mx-auto p-[100px] px-4 md:mt-20">
+    <div className="container mx-auto p-[100px] px-4 mt-2">
       <div className="flex flex-col md:flex-row justify-between items-center p-4">
         <h3 className="text-[40px] leading-[60px] text-[#000000] md:text-4xl font-normal text-center md:text-left mb-4 md:mb-0">
         What is Teloz Community

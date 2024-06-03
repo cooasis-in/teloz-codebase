@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-function Cards({data}) {
+function Cards ({data}) {
   return ( 
     <>
     <div className="flex flex-col md:flex-row p-3">
