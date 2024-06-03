@@ -3,6 +3,7 @@ import AreUStartup from "../reusableComponents/AreUStartup";
 import GrowthNetwork from "./GrowthNetwork";
 import OurPartners from "./OurPartners";
 import TelozCommunity from "./TelozCommunity";
+import WantPartnerWithUs from "./WantPartnerWithUs";
 
 const Desktop4Master = () => {
   return (
@@ -12,6 +13,7 @@ const Desktop4Master = () => {
       <AreUStartup />
       <GrowthNetwork/>
       <OurPartners/>
+      <WantPartnerWithUs/>
     </>
   );
 }
