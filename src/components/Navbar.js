@@ -80,10 +80,10 @@ const Navbar = () => {
         </div>
         <div className={`md:hidden ${isOpen ? "block bg-[#FFFCEE]" : "hidden"}`}>
           <div className="px-2 pt-2 pb-3 space-y-1">
-            <Link href="#" className="block text-gray-700 hover:text-[#F26622]">
+            <Link href="/desktopTwo" className="block text-gray-700 hover:text-[#F26622]">
               Locations
             </Link>
-            <Link href="#" className="block text-gray-700 hover:text-[#F26622]">
+            <Link href="/bookNow" className="block text-gray-700 hover:text-[#F26622]">
               Workspaces
             </Link>
             <Link href="#" className="block text-gray-700 hover:text-[#F26622]">

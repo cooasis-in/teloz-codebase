@@ -76,5 +76,18 @@ body {
 }
 
 
+@media (max-width: 767px) {
+
+  .slider-container {
+    overflow: hidden;
+  }
+
+  .slick-dots {
+    left: 0% !important;
+  }
+
+}
+
+
 
 /* desktop-2 coworkingspaces-sec slick slider */

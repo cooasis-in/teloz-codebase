@@ -24,11 +24,9 @@ function OurClients() {
                 <span className="block text-sm text-gray-700">Apple Inc.</span>
               </div>
             </div>
-            <div className="mt-4">
-              <p className="text-sm leading-[25.2px] text-gray-800">
-                "The 24/7 access and secure facilities have been incredibly
-                convenient for my team's flexible schedules. We love the coworking
-                space!"
+            <div className="mt-12">
+              <p className="text-[16px] leading-[25.2px] font-normal text-[#1D1E1C]">
+              &ldquo;The 24/7 access and secure facilities have been incredibly convenient for my team&apos;s flexible schedules. We love the coworking space!&ldquo;
               </p>
             </div>
           </div>
@@ -50,11 +48,9 @@ function OurClients() {
                 <span className="block text-sm text-gray-700">Apple Inc.</span>
               </div>
             </div>
-            <div className="mt-4">
-              <p className="text-sm leading-[25.2px] text-gray-800">
-                "The 24/7 access and secure facilities have been incredibly
-                convenient for my team's flexible schedules. We love the coworking
-                space!"
+            <div className="mt-12">
+              <p className="text-[16px] leading-[25.2px] font-normal text-[#1D1E1C">
+              &quot;The 24/7 access and secure facilities have been incredibly convenient for my team&apos;s flexible schedules. We love the coworking space!&quot;
               </p>
             </div>
           </div>
@@ -76,11 +72,9 @@ function OurClients() {
                 <span className="block text-sm text-gray-700">Apple Inc.</span>
               </div>
             </div>
-            <div className="mt-4">
-              <p className="text-sm leading-[25.2px] text-gray-800">
-                "The 24/7 access and secure facilities have been incredibly
-                convenient for my team's flexible schedules. We love the coworking
-                space!"
+            <div className="mt-12">
+              <p className="text-[16px] leading-[25.2px] font-normal text-[#1D1E1C">
+              &quot;The 24/7 access and secure facilities have been incredibly convenient for my team&apos;s flexible schedules. We love the coworking space!&quot;
               </p>
             </div>
           </div>
@@ -102,11 +96,9 @@ function OurClients() {
                 <span className="block text-sm text-gray-700">Apple Inc.</span>
               </div>
             </div>
-            <div className="mt-4">
-              <p className="text-sm leading-[25.2px] text-gray-800">
-                "The 24/7 access and secure facilities have been incredibly
-                convenient for my team's flexible schedules. We love the coworking
-                space!"
+            <div className="mt-12">
+              <p className="text-[16px] leading-[25.2px] font-normal text-[#1D1E1C">
+              &quot;The 24/7 access and secure facilities have been incredibly convenient for my team&apos;s flexible schedules. We love the coworking space!&quot;
               </p>
             </div>
           </div>
