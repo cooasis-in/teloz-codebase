@@ -22,7 +22,7 @@ const Navbar = () => {
             >
               <div className="image">
                 <Image
-                  src="/image/telozlogo.png"
+                  src="/image/Teloz-logo.svg"
                   alt="Office Image"
                   width={92.29}
                   height={50}

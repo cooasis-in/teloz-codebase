@@ -78,7 +78,7 @@ const HostEventCard = () => {
       <Slider {...settings} className="mt-8">
         {events.map((event) => (
           <div key={event.id} className="p-4">
-            <div className="bg-white grid lg:grid-cols-1 md:grid-cols-1 cursor-pointer shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+            <div className="bg-white grid lg:grid-cols-1 md:grid-cols-1 cursor-pointer overflow-hidden transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
               <Image
                 src={event.image}
                 alt={event.title}

@@ -9,10 +9,15 @@ const OurHostSolutions = () => {
         <h3 className="text-2xl md:text-4xl font-normal text-center md:text-left mb-4 md:mb-0">
           Explore our host of solutions
         </h3>
-        {/* <button className="block bg-white text-black px-4 py-2 border hover:bg-[#FFFCEE] w-[147px] h-[59px] text-center">
+        <Button
+          className="mt-8"
+          color=" bg-white"
+          text="black"
+          border="border"
+          hover="hover:bg-[#FFFCEE] "
+        >
           View All
-        </button> */}
-        <Button className="mt-8" color=" bg-white" text="black" border="border" hover="hover:bg-[#FFFCEE] ">View All</Button>
+        </Button>
       </div>
       <p className="lg:mt-10 mt-4 text-center md:text-left">
         From coworking spaces to private offices, you can choose from a range of
@@ -22,8 +27,8 @@ const OurHostSolutions = () => {
 
       {/* Cards */}
       <div className="container mx-auto mt-12">
-        <div className="flex flex-col md:flex-row gap-8">
-          <div className="flex items-center w-full md:w-[415px] h-[202px] bg-white border">
+        <div className="flex flex-col md:flex-row gap-8 ">
+          <div className="flex items-center w-full md:w-[415px] h-[202px] bg-white border hover:shadow-lg transition-transform cursor-pointer hover:scale-105">
             <div className="image p-6">
               <Image
                 src="/image/cardLogo.png"
@@ -41,7 +46,7 @@ const OurHostSolutions = () => {
             </div>
           </div>
 
-          <div className="flex items-center w-full md:w-[415px] h-[202px] bg-white border">
+          <div className="flex items-center w-full md:w-[415px] h-[202px] bg-white border hover:shadow-lg cursor-pointer hover:scale-105 transition-transform">
             <div className="image p-6">
               <Image
                 src="/image/cardLogo.png"
@@ -59,7 +64,7 @@ const OurHostSolutions = () => {
             </div>
           </div>
 
-          <div className="flex items-center w-full md:w-[415px] h-[202px] bg-white border">
+          <div className="flex items-center w-full md:w-[415px] h-[202px] bg-white border hover:shadow-lg cursor-pointer hover:scale-105 transition-transform">
             <div className="image p-6">
               <Image
                 src="/image/cardLogo.png"

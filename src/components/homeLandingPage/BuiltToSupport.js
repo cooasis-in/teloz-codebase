@@ -30,7 +30,7 @@ const BuiltToSupport = () => {
         {events.map((event) => (
           <div
             key={event.id}
-            className="max-w-xs mx-auto cursor-pointer bg-white border border-gray-300 shadow-lg overflow-hidden transition-transform transform hover:scale-105 hover:shadow-xl"
+            className="max-w-xs mx-auto cursor-pointer bg-white border border-gray-300 overflow-hidden transition-transform transform hover:scale-105 hover:shadow"
           >
             <div className="relative h-48">
               <Image src={event.image} layout="fill" objectFit="cover" alt={event.title} />

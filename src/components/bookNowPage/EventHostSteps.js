@@ -31,7 +31,7 @@ const EventHostSteps = () => {
           {steps.map((step) => (
             <div
               key={step.id}
-              className="bg-[#FF5D220D] cursor-pointer p-6 text-center shadow-lg border transform transition-transform duration-300 ease-in-out hover:scale-105"
+              className="bg-[#FF5D220D] cursor-pointer p-6 text-center  border transform transition-transform duration-300 ease-in-out hover:scale-105"
               style={{ width: '280px', height: '340px' }}
             >
               <div className="flex flex-row justify-between items-center mb-4">

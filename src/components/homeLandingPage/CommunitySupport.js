@@ -18,7 +18,7 @@ const CommunitySupport = () => {
 
       {/* Cards */}
       <div className="Card-main flex justify-center items-center  gap-4 mt-16 flex-col md:flex-row">
-        <div className="  bg-[#FF5D220D] hover:bg-orange-100 transition duration-300 ease-in-out w-[308px] h-[367px] border border-transparent p-6 max-w-xs cursor-pointer">
+        <div className="  bg-[#FF5D220D] hover:bg-orange-100 transition hover:scale-105 hover:shadow duration-300 ease-in-out w-[308px] h-[367px] border border-transparent p-6 max-w-xs cursor-pointer">
           <div className="ml-3">
             <h2 className="text-2xl font-bold mb-2">Flex</h2>
             <p className="text-orange-600 mb-4">No membership required</p>
@@ -59,7 +59,7 @@ const CommunitySupport = () => {
 
         {/* Card 2 */}
 
-        <div className=" bg-[#FF5D220D] hover:bg-orange-100 transition duration-300 ease-in-out w-[308px] h-[367px] border border-transparent p-6 max-w-xs cursor-pointer">
+        <div className=" bg-[#FF5D220D] hover:bg-orange-100 transition duration-300 ease-in-out w-[308px] h-[367px] border border-transparent p-6 max-w-xs cursor-pointer hover:scale-105 hover:shadow">
           <div className="ml-3">
             <h2 className="text-2xl font-bold mb-2">Seat</h2>
             <p className="text-orange-600 mb-4">Starting @ ₹ 4,999/day</p>
@@ -95,7 +95,7 @@ const CommunitySupport = () => {
 
         {/* Card 3 */}
 
-        <div className=" bg-[#FF5D220D] hover:bg-orange-100 transition duration-300 ease-in-out w-[308px] h-[367px] border border-transparent p-6 max-w-xs cursor-pointer">
+        <div className=" bg-[#FF5D220D] hover:bg-orange-100 transition duration-300 ease-in-out w-[308px] h-[367px] border border-transparent p-6 max-w-xs cursor-pointer hover:scale-105 hover:shadow">
           <div className="ml-3">
             <h2 className="text-2xl font-bold mb-2">Desk</h2>
             <p className="text-orange-600 mb-4">Starting @ ₹ 4,999/day</p>
@@ -130,7 +130,7 @@ const CommunitySupport = () => {
         </div>
 
         {/* Card 4 */}
-        <div className=" bg-[#FF5D220D] hover:bg-orange-100 transition duration-300 ease-in-out w-[308px] h-[367px] border border-transparent p-6 max-w-xs cursor-pointer">
+        <div className=" bg-[#FF5D220D] hover:bg-orange-100 transition duration-300 ease-in-out w-[308px] h-[367px] border border-transparent p-6 max-w-xs cursor-pointer hover:scale-105 hover:shadow">
           <div className="absolute top-3 right-4 border border-transparent text-sm bg-white p-1 flex flex-col items-start">
             <div className="flex items-center text-orange-600 text-xs">
               <span className="w-2.5 h-2.5 bg-orange-600 inline-block mr-2"></span>

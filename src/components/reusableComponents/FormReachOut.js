@@ -14,7 +14,7 @@ const FormReachOut = () => {
           objectFit="cover"
         />
       </div>
-      <div className=" absolute mt-[250px] opacity-95 bg-white p-8 shadow-lg" style={{ width: '693px', height: '820px' }}>
+      <div className=" absolute mt-[250px] opacity-95 bg-white p-8 " style={{ width: '693px', height: '820px' }}>
       <h2 className="text-4xl font-semibold mb-6 text-center">Get in touch with us</h2>
       <form className="space-y-6 ">
         <div className="grid grid-cols-2 gap-4 mt-12">
